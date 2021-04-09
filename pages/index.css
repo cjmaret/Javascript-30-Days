@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.page {
+    background-image: url("../seoul.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    display: flex;
+}
+
+.main {
+    background-color: rgba(0,0,0,.5);
+    width: 85%;
+    margin: auto;
+    box-shadow: 0 12px 32px rgb(0,0,0);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.title {
+    color: white; 
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+
+.list__item {
+    font-size: 25px;
+    text-align: center;
+    margin: 5px auto;
+    text-transform: uppercase;
+    place-self: center;
+}
+
+.list__link {
+    text-decoration: none;
+    color: white;
+}
+
+.span {
+    transition: 0.4s ease;
+}
+
+.span:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
