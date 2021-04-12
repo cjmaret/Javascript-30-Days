@@ -39,7 +39,6 @@
   }
 
   .angel {
-      object-fit: contain;
-      width: 50%;
+      width: 500px;
       margin: auto;
   }
