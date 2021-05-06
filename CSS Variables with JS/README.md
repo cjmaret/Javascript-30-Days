@@ -1,1 +1,0 @@
-An exercise in manipulating CSS variables using JS!

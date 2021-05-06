@@ -1,0 +1,86 @@
+@import url("./vendor/normalize.css");
+
+.page {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./blank-easel-template-garden-background_91924-107.jpg"), linear-gradient(to bottom, #f3f3f3, #b5d9fc);
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.quotes {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    max-width: 500px;
+    width: 50%;
+    margin: auto;
+}
+.quote {
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+}
+
+.quote-author {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 19px;
+    width: 500px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.canvas {
+    border: 1px solid red;
+    display: block;
+    margin: auto;
+    max-width: 420px;
+    max-height: 502px;
+    position: absolute;
+    top: 45.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55%;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+}
+
+.overlay__text {
+    color: white;
+    text-align: center;
+    width: 75%;
+    font-size: 60px;
+    margin: 30% auto 50% auto;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+@media only screen and (max-width: 868px) {
+    .overlay {
+        display: block;
+    }
+}
