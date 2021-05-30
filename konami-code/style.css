@@ -1,0 +1,43 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position:relative;
+}
+
+.instructions {
+    text-align: center;
+   font-size: 65px;
+}
+
+.unicorncode {
+    background: -webkit-linear-gradient(blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ohgod {
+    text-align: center;
+    font-size: 30px;
+    opacity: 0;
+}
+
+.run {
+    text-align: center;
+    font-size: 30px;
+    opacity: 0;
+    position: absolute;
+    left: 15px;
+    bottom: 40px;
+}
+
+.prank {
+    text-align: center;
+    z-index: 1000000000;
+    background-color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    opacity: 0;
+}
