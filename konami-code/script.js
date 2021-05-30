@@ -34,7 +34,7 @@ function timer(e) {
     } else if (e === runForHelp) {
         window.setTimeout( function() {e.style.opacity = 1;}, 5000);
     } else {
-        window.setTimeout( function() {e.style.opacity = 1;}, 2000);
+        window.setTimeout( function() {e.style.opacity = 1;}, 3000);
     }
 };
 
