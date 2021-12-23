@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .page {
-    background-image: url("../seoul.jpg");
+    background-image: url("../images/seoul.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
